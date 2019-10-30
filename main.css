@@ -1,0 +1,19 @@
+/* site.css */
+
+body {
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+display:flex;
+flex-direction: column;
+background-image: url();
+}
+
+
+a {
+    text-decoration:none;
+}
