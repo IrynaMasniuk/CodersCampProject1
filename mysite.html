@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
     <title>Iryna Masniuk</title>
     <script src="https://kit.fontawesome.com/2cc939e95f.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Assistant:300,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type = "text/css" href="main.css">
 </head>
 
 <body>
@@ -73,7 +73,7 @@
             <p>I'm happy to help you with any problems!</p>
         </div>
 
-        <div>
+        <div class="button2-align">
             <button class="rectangular">Contact me</button>
 
             <button class="rectangular">Check my CV!</button>
@@ -81,17 +81,27 @@
             
             <section id="about">
                 <h1 class="section-headers">About me</h1>
-                <img src="img/profile/jpg" alt="Iryna Masniuk">
+                <div class="about-items">
+                <img src="img/profile.jpg" class ="profile-pic" alt="Iryna Masniuk">    
+                </div>
+                <div class="about-items">
                 <p><span class="subheader">Full Name:</span><span class="fancy-content">Iryna Masniuk</span> </p>
                 <p><span class="subheader">Age:</span><span class="fancy-content">28 years</span> </p>
                 <p><span class="subheader">Profile:</span><span class="fancy-content">Fullstack</span> </p>
                 <p><span class="subheader">Telephone:</span><span class="fancy-content">+48 782 765 291</span> </p>
                 <p><span class="subheader">E-mail:</span><span class="fancy-content">rodzynia@gmail.com</span> </p>
+                </div>
+                <div class="about-items">
                 <hr class="line"/>
+                </div>
+                <div class="about-items">
                 <p>Hi! My name is Iryna Masniuk and I'm starting my journey with frontend.</p>
-
+                </div>
             </section>
-
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <section id="skills">
                 <h1 class="section-headers">My skills</h1>
                 <table>
@@ -100,6 +110,7 @@
                         <h4>UX/UI</h4>
                         <h4>Sigma</h4>
                     </div>
+
                     <div class="skills-item">
                         <img src="img/frontend.jpg" alt="frontend">
                         <h4>Front End</h4>
@@ -115,27 +126,64 @@
 
             <section id="portfolio">
                 <h1 class="section-headers">My Projects</h1>
-                <div class=project1>
+                <div class = "projects">
+                <div class="project-descr" "project1">
+                    <a href="" target=_blank>
                     <h2>Design</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     </p>>
-                    <button>View</button>
+                    <button class="rectangular">View</button>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div><h2>Design project</h2>
+                <div class=project2>
+                    <a href="" target=_blank>
+                    <img src="img/project2.jpg" alt="">
+                    </a>  
+                </div>
+                <div>
+                    <a href="" target=_blank>
+                    <img src="img/project3.jpg" alt="">
+                    	</a>
+                </div>
+                <div>
+                    <a href="" target=_blank>
+                    <img src="img/project4.jpg" alt="">
+                    <a/>
+                </div>
+                <div class="project-descr" "project5">
+                    <h2>Design project</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                     </p>>
-                    <button>View</button>
+                    <button class="rectangular">View</button>
+                </div>
                 </div>
             </section>
 
             <section id="contact">
                 <h1 class="section-headers">Contact us</h1>
                 <div>
+
                 </div>
                 <div>
+                    <h1>Let's Start!</h1>
+                    <br/>
+                    <form action="/test.html" method="POST">
+                    <input type="text" name="first-text-field" value="Name">
+                    </form>
+                    <br/>
+                    <form action="/test.html" method="POST">
+                    <input type="text" name="first-text-field" value="Your e-mail address">
+                    </form>
+                    <br/>
+                    <form action="/test.html" method="POST">
+                    <input type="text" name="first-text-field" value="Topic">
+                    </form>
+                    <br/>
+                    <form action="/test.html" method="POST">
+                    <input type="text" name="first-text-field" value="Message">
+                    </form>
+                    <br/>
+                    <button class="rectangular">Send</button>
+
                 </div>
             </section>
 
