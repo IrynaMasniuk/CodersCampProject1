@@ -1,66 +1,96 @@
 /* site.css */
 
-body {
+/*body {
     line-height:1.7;
-    font-size: 14px;
+    font-size: 18px;
     color: #333;
     background-color: #fff;
     font-family: 'Assistant', sans-serif;
-}
+    }*/
 
-.mainphoto-section {
+.site-container {
     position: relative;
-    background-image: url("img/header-background.jpg");
-    background-size: cover; 
-    min-height: 500px;
-    height: 100vh;
-    opacity:0.9;
+    display: flex;
+    justify-content: center;
+    min-width: 1440px;
 }
+.content {
+    position: relative;
+    width: 1440px;
+    /*height: 3559px;*/
+    background: #FFFFFF;
+    }
 
-.navigation-list{
+.navigation-list {
     display:flex;
     justify-content: flex-end;
-
     }
+
 .navigation-list li{
     display: flex;
-     
-    }   
+    } 
+
 .menu-item {
     text-decoration:none;
     margin: 30px;
-    color: #fff;
+    color:#001a00;
+    font-weight: bold;
+    font-size: 20px;
     }
     
+ /*   
+.mainphoto-section {
+    position: relative;
+    background-image: url("img/background.jpg");
+    background-size: cover; 
+    min-height: 500px;
+    height: 100vh;
+    background-size: cover;
+    opacity:0.9; */
+
+.mainphoto-section {
+    position: relative;
+    /*width: 1440px;
+    height: 585px;*/
+    min-height: 500px;
+    background: url("img/photo-3.jpg");
+    background-size: cover;
+    opacity:0.95;
+    }
+
 .presentation-section {
     width: 100%;
-    height: 200px;
+    height: 300px;
     position: absolute;
-}
+    }
+
+.headers {
+    text-align:center;
+    font-weight: 400; 
+    }
 
 .megaheader {
-    text-align:center;
     text-transform: uppercase;
     font-weight: 400;
     margin: 0 0 10px 0;
-    font-size: 80px;
+    font-size: 60px;
     letter-spacing: 20px;
     line-height: 80px;
-    color: #fff;
-}
+    color: #e6ac00;
+    font-weight: bolder;
+    }
 
-.subheader{
+.subheader1{
     text-align: center;
-    color: #d6d6c2;
-    font-weight: 300;
-    margin: 20px;
-}
-
+    color:  #fff;
+    font-size: 50px;
+    margin: 40px;  
+}     
 .subheader2{
     text-align:center;
-    font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
+    margin: 20px;
 }
 
 .middle-section {
@@ -73,15 +103,19 @@ body {
 
 .section-headers {
     text-align:center;
-
 }
+        
+.skills-item {
+display:inline-block;
+}
+
 
 .icon-container {
     display:flex;
 }
 
 .icon {
-    color: darkgreen;
+    color: #fff;
     font-size: 40px;
     margin-left: 10px;
     margin-right: 10px;
@@ -95,4 +129,24 @@ display:flex;
 justify-content:center;
 align-items:center;
 min-height: 50px;
+}
+
+.subheader {
+    color:#001a00;
+    font-weight: bold;
+}
+
+.fancy-content{
+    color: darkorange;
+    font-weight: bold;
+}
+
+.line{
+    width: 200px;
+    height: 2px;
+}
+
+.rectangular{
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+border-radius: 15px;
 }

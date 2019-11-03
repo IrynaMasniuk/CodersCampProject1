@@ -1,91 +1,153 @@
 <!DOCTYPE html>
-<html lang="pl-PL"> 
-	<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="description" content="My home page where you can check my portfolio">
-        <meta name="keywords" content="Iryna Masniuk, Iryna, Masniuk, frontend, web, Junior Front End Developer, Wroclaw">
-        <title>Iryna Masniuk</title>
-        <script src="https://kit.fontawesome.com/2cc939e95f.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Assistant:300,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">   
-	</head>
-	<body>
-        <div class="site-container">
-            <div class="mainphoto-section">
-                <div class="navigation">
-                    <nav>
-                        <ul class="navigation-list">
-                            <li>
-                                <a class="menu-item" href="" ="">O mnie</a>  
-                            </li>
-                            <li>
-                                <a class="menu-item" href="" ="">Umietnosci</a>  
-                            </li>
-                            <li>
-                                <a class="menu-item" href="" ="">Portfolio</a>    
-                            </li>
-                            <li>
-                                <a class="menu-item" href="" ="">Kontakt</a>      
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="presentation-section">
-                    <h2 class="megaheader">Iryna Masniuk</h2> 
-                    
-                    <h1 class="subheader">Junior Front End Developer</h1>
-                    
-                    <h3 class="subheader2">Strona internetowa dla ciebie !</h3>
-                </div>
-            </div>
+<html>
 
-           <div class="middle-section">
-               <h1 class="section-headers">Prydatne linki</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="My home page where you can check my portfolio">
+    <meta name="keywords" content="Iryna Masniuk, Iryna, Masniuk, frontend, web, Junior Front End Developer, Wroclaw">
+    <title>Iryna Masniuk</title>
+    <script src="https://kit.fontawesome.com/2cc939e95f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="site-container">
+    <div class="content">
+        <div class="navigation">
+            <nav>
+                <ul class="navigation-list">
+                    <li>
+                        <a class="menu-item" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="mainphoto-section">
+            <div class="presentation-section">
+
+                <h1 class="megaheader headers">Welcome !</h1>
+
+                <h2 class="subheader1 headers">My name is Iryna Masniuk</h2>
+
+                <h3 class="subheader2 headers">Junior Front End Developer</h3>
+
                 <div class="icons-container">
-                    <div>
-                        <a href="linkedin.com/iryna-masniuk-98765423" class="icon" target=_blank>
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>   
+                        <div>
+                            <a href="linkedin.com/iryna-masniuk-98765423" class="icon" target=_blank>
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="github.com/iryna.masniuk" class="icon" target=_blank>
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="facebook.com/iryna.masniuk" class="icon" target=_blank>
+                                <i class="fab fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="rodzynia@gmail.com" class="icon" target=_blank>
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div>
-                        <a href="github.com/iryna.masniuk" class="icon" target=_blank>
-                            <i class="fab fa-github-square"></i>
-                        </a>   
+            </div>
+        </div>
+
+        <div class="middle-section">
+            <p>I'm happy to help you with any problems!</p>
+        </div>
+
+        <div>
+            <button class="rectangular">Contact me</button>
+
+            <button class="rectangular">Check my CV!</button>
+        </div>
+            
+            <section id="about">
+                <h1 class="section-headers">About me</h1>
+                <img src="img/profile/jpg" alt="Iryna Masniuk">
+                <p><span class="subheader">Full Name:</span><span class="fancy-content">Iryna Masniuk</span> </p>
+                <p><span class="subheader">Age:</span><span class="fancy-content">28 years</span> </p>
+                <p><span class="subheader">Profile:</span><span class="fancy-content">Fullstack</span> </p>
+                <p><span class="subheader">Telephone:</span><span class="fancy-content">+48 782 765 291</span> </p>
+                <p><span class="subheader">E-mail:</span><span class="fancy-content">rodzynia@gmail.com</span> </p>
+                <hr class="line"/>
+                <p>Hi! My name is Iryna Masniuk and I'm starting my journey with frontend.</p>
+
+            </section>
+
+            <section id="skills">
+                <h1 class="section-headers">My skills</h1>
+                <table>
+                    <div class="skills-item">
+                        <img src="img/UI.png" alt="UX/UI">
+                        <h4>UX/UI</h4>
+                        <h4>Sigma</h4>
                     </div>
-                    <div>
-                        <a href="facebook.com/iryna.masniuk" class="icon" target=_blank> 
-                            <i class="fab fa-facebook" aria-hidden="true"></i>
-                        </a>  
+                    <div class="skills-item">
+                        <img src="img/frontend.jpg" alt="frontend">
+                        <h4>Front End</h4>
+                        <h4>Html, CSS, JavaScript</h4>
                     </div>
-                    <div>
-                        <a href="rodzynia@gmail.com" class="icon" target=_blank>
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        </a>   
+                    <div class="skills-item">
+                        <img src="img/backend.png" alt="backend">
+                        <h4>Back End</h4>
+                        <h4>PHP, Node.js</h4>
                     </div>
+                </table>
+            </section>
+
+            <section id="portfolio">
+                <h1 class="section-headers">My Projects</h1>
+                <div class=project1>
+                    <h2>Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>>
+                    <button>View</button>
                 </div>
-
-                <h1 class="section-headers">O mnie</h1>
-                    <img src="" alt="">
-                    <p>Hi! My name is Iryna Masniuk and I'm starting my journey with frontend.</p> 
-                    <button>Contact me</button>
-                    <button>Check my CV!</button>
-
-
-                <h1 class="section-headers">Moje Umietnosci</h1>
-                <div class="skills">
-                    <p>WERTYUIO.kjhyddhfjsdcvdfuiv.</p>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div><h2>Design project</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>>
+                    <button>View</button>
                 </div>
+            </section>
 
-                <h1 class="section-headers">Moje Projekty</h1>
+            <section id="contact">
+                <h1 class="section-headers">Contact us</h1>
+                <div>
+                </div>
+                <div>
+                </div>
+            </section>
 
 
-            </div> 
-        </div>      
+
+        
+    </div>
+    </div>
     <footer>
-		Copyright &copy; 2019 Iryna Masniuk
+        Copyright &copy; 2019 Iryna Masniuk
     </footer>
 
-	</body>
+</body>
+
 </html>
