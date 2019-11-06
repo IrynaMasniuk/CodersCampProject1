@@ -8,19 +8,11 @@
     font-family: 'Assistant', sans-serif;
     }*/
 
-.site-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    min-width: 1440px;
-}
-.content {
-    position: relative;
-    width: 1440px;
-    /*height: 3559px;*/
+.container {
     background: #FFFFFF;
-    }
-
+    line-height: 1;
+}
+   
 .navigation-list {
     display:flex;
     justify-content: flex-end;
@@ -66,7 +58,7 @@
 
 .headers {
     text-align:center;
-    font-weight: 400; 
+    font-weight: 400;
     }
 
 .megaheader {
@@ -95,19 +87,22 @@
 
 .middle-section {
     background-color:#ebebe0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: #31522a;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
-
+    
 .section-headers {
     text-align:center;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.02em;
 }
         
-.skills-item {
-display:inline-block;
-}
+
 
 
 .icon-container {
@@ -123,12 +118,11 @@ display:inline-block;
 }
 
 footer {
-background-color: #31522a;
-color: #fff;
-display:flex;
+color: #001a00;
+text-align: center;
+/*display:flex;
 justify-content:center;
-align-items:center;
-min-height: 50px;
+align-items:center;*/
 }
 
 .subheader {
@@ -141,21 +135,32 @@ min-height: 50px;
     font-weight: bold;
 }
 
-.line{
+.line {
+font-weight: bold;
     width: 200px;
     height: 2px;
     transform: rotate(90deg);
 }
 
 .rectangular{
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
     background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
-border-radius: 15px;
-color: white;
+    border-radius: 15px;
+    color: white;
+    width: 150px;
+
+}
+.profile-pic {
+    height: auto;
+    width: 100%;
+    border-radius: 50%;
 }
 
-.button-align {
-align-content: center;
-}
 
 .project1{
     background: url("img/project1.jpg");
@@ -163,22 +168,32 @@ align-content: center;
     background-size: cover;
 }
 
-.project-descr {
-
-}
-
-.profile-pic {
-    height: 170px;
-    width: 170px;
-    border-radius: 50%;
-    margin: 20px;
-}
-
-.about-items {
-    display:inline-block;
-}
 
 .form-view {
     background: #FAFAFF;
 border-radius: 15px;
+}
+
+.filled-style {
+    background-color: #31522a;
+}
+.icons-bottom {
+    color: #fff;
+    size: 10px;
+    display: flex;
+}
+
+.vertical-line {
+    border-left: 5px dotted #FF9A3D;
+    margin: 15px 15px 0 0;
+    height: 80%;
+    width: 20px;
+    float: left;
+}
+
+.skills-item-align {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
