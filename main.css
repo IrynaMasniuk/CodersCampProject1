@@ -1,15 +1,15 @@
-/* site.css */
+/* main.css */
 
 /*body {
     line-height:1.7;
     font-size: 18px;
     color: #333;
-    background-color: #fff;
+    background-color: #FFFFFF;
     font-family: 'Assistant', sans-serif;
     }*/
 
 .container {
-    background: #FFFFFF;
+    background-color:#ebebe0;
     line-height: 1;
 }
    
@@ -42,10 +42,8 @@
 
 .mainphoto-section {
     position: relative;
-    /*width: 1440px;
-    height: 585px;*/
     min-height: 500px;
-    background: url("img/photo-3.jpg");
+    background: url("img/background_top.jpg");
     background-size: cover;
     opacity:0.95;
     }
@@ -74,55 +72,73 @@
 
 .subheader1{
     text-align: center;
-    color:  #fff;
+    color:  #FFFFFF;
     font-size: 50px;
     margin: 40px;  
 }     
 .subheader2{
     text-align:center;
     font-size: 25px;
-    color: #fff;
+    color: #FFFFFF;
     margin: 20px;
 }
 
-.middle-section {
-    background-color:#ebebe0;
+.slogan{
     color: #31522a;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    text-align: center;
     letter-spacing: 0.02em;
 }
-    
+
+.button-block {
+    text-align: center;
+}
+
+.about-styling {
+        background: #FFFFFF;
+        border-radius: 15px;
+        box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+        padding-top: 20px;
+}
+
+.fancy-content{
+    color: darkorange;
+    font-weight: bold;
+}
+.vertical-line {
+    border-left: 5px dotted #FF9A3D;
+    margin: 15px 15px 0 0;
+    height: 80%;
+    width: 20px;
+    float: left;
+}
+
+.line {
+font-weight: bold;
+    width: 200px;
+    height: 0.5px;
+    transform: rotate(90deg);
+
 .section-headers {
     text-align:center;
     font-style: normal;
     font-weight: bold;
     letter-spacing: 0.02em;
+    padding: 30px 0;
 }
         
-
-
-
-.icon-container {
+.icons-container {
     display:flex;
+    justify-content: center;
 }
 
 .icon {
-    color: #fff;
+    color: #FFFFFF;
     font-size: 40px;
     margin-left: 10px;
     margin-right: 10px;
     text-decoration: none;
-}
-
-footer {
-color: #001a00;
-text-align: center;
-/*display:flex;
-justify-content:center;
-align-items:center;*/
 }
 
 .subheader {
@@ -130,16 +146,7 @@ align-items:center;*/
     font-weight: bold;
 }
 
-.fancy-content{
-    color: darkorange;
-    font-weight: bold;
-}
 
-.line {
-font-weight: bold;
-    width: 200px;
-    height: 2px;
-    transform: rotate(90deg);
 }
 
 .rectangular{
@@ -153,42 +160,69 @@ font-weight: bold;
     border-radius: 15px;
     color: white;
     width: 150px;
-
 }
+.button-justify{
+    text-align: center;
+}
+
 .profile-pic {
     height: auto;
     width: 100%;
     border-radius: 50%;
 }
 
-
+.project-align {
+    padding-left: 0;
+    padding-right: 0;
+}
 .project1{
     background: url("img/project1.jpg");
-    position:relative;
-    background-size: cover;
-}
+    background-repeat: no-repeat; 
+    text-decoration: none; 
+} 
+.project8{
+    background: url("img/project8.jpg");
+    background-repeat: no-repeat;
+    /*background-size: auto; */
+    text-decoration: none; 
+} 
 
+/*.contact-section {
+    padding: 20px;
+}*/
 
-.form-view {
+input { 
     background: #FAFAFF;
-border-radius: 15px;
+    border-radius: 15px;
+    padding: 5px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: #A0A0A0;
 }
 
 .filled-style {
     background-color: #31522a;
+    color: white;
 }
 .icons-bottom {
-    color: #fff;
+    color:#FFFFFF;
     size: 10px;
     display: flex;
 }
 
-.vertical-line {
-    border-left: 5px dotted #FF9A3D;
-    margin: 15px 15px 0 0;
-    height: 80%;
-    width: 20px;
-    float: left;
+
+
+.skill-section {
+    background: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    padding-top: 20px;
 }
 
 .skills-item-align {
@@ -196,4 +230,24 @@ border-radius: 15px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    /*background: #FAFAFF;*/
+    
+
+
 }
+
+.form-styling {
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FAFAFF;
+border-radius: 15px;
+}
+
+footer {
+    color: #A0A0A0;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    }

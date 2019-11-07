@@ -71,27 +71,26 @@
                 </div>
             </div>
 
-            <div class="middle-section">
-                <div class="row">
+            <div class="button-block">
+                <div class="row" >
                     <div class="col-12">
-                        <p>I'm happy to help you with any problems!</p>
+                        <p class="slogan">I'm happy to help you with any problems!</p>
                     </div>
                 </div>
-            </div>
-            <div class="button-block">
                 <div class="row">
-                    <div class="col-md-4 col-2">
+                    <div class="col-md-1">
                     </div>
-                    <div class="col-md-4 col-4 button-justify">
+                    <div class="col-md-10 button-justify">
                         <button class="rectangular">Contact me</button>
                         <button class="rectangular">Check my CV!</button>
                     </div>
-                    <div class="col-md-4 col-2">
+                    <div class="col-md-1">
                     </div>
                 </div>
             </div>
             <section id="about">
                 <h1 class="section-headers">About me</h1>
+                <div class="about-styling">
                 <div class="row">
 
                     <div class="col-2">
@@ -124,7 +123,7 @@
                         <div>Hi! My name is Iryna Masniuk and I'm starting my journey with frontend.</div>
                     </div>
                 </div>
-
+            </div>
             </section>
             <br/>
             <br/>
@@ -132,6 +131,7 @@
             <br/>
             <section id="skills">
                 <h1 class="section-headers">My skills</h1>
+                <div class="skill-section">
                 <div class="row">
                     <div class="col-md-4 col-sm-12 skills-item-align">
                         <img src="img/UI.png" alt="UX/UI"/>
@@ -150,43 +150,63 @@
                         <h4>PHP, Node.js</h4>
                     </div>
                 </div>
+            </div>
             </section>
 
             <section id="portfolio">
                 <h1 class="section-headers">My Projects</h1>
-                <div class="projects">
-                    <div class="project-descr" "project1">
+                <div class="row">
+                    <div class="col-md-3 col-6 project1 project-align ">
                         <a href="" target=_blank>
                             <h2>Design</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>>
+                            <p class="text-overlink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua.</p>
                             <button class="rectangular">View</button>
+                        <a/>
                     </div>
-                    <div class=project2>
+                    <div class="col-md-3 col-6 project-align ">
                         <a href="" target=_blank>
                             <img src="img/project2.jpg" alt="">
                         </a>
                     </div>
-                    <div>
+                    <div class="col-md-3 col-6 project-align">
                         <a href="" target=_blank>
                             <img src="img/project3.jpg" alt="">
                         </a>
                     </div>
-                    <div>
+                    <div class="col-md-3 col-6 project-align">
                         <a href="" target=_blank>
                             <img src="img/project4.jpg" alt="">
-                            <a/>
+                        <a/>
                     </div>
-                    <div class="project-descr" "project5">
-                        <h2>Design project</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat.
-                        </p>>
-                        <button class="rectangular">View</button>
+                </div>
+                <br/><br/>
+                <div class="row">
+                    <div class="col-md-3 col-6 project-align" style="min-width: 250px;">
+                        <a href="" target=_blank>
+                            <img src="img/project5.jpg" alt="">
+                        <a/>
+                    </div> 
+                    <div class="col-md-3 col-6 project-align" style="min-width: 250px;">
+                        <a href="" target=_blank>
+                            <img src="img/project6.jpg" style="min-width: 250px;" alt="">
+                        <a/>
                     </div>
+                    <div class="col-md-3 col-6 project-align" style="min-width: 250px;">
+                        <a href="" target=_blank>
+                            <img src="img/project7.jpg" alt="">
+                        <a/>
+                    </div>
+                    <div class="col-md-3 col-6 project8 project-align ">
+                        <a href="" target=_blank>
+                            <h2>Design project</h2>
+                            <p class="text-overlink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. 
+                            </p>
+                            <button class="rectangular">View</button>
+                        <a/>
+                    </div>
+                
                 </div>
             </section>
 
@@ -194,10 +214,12 @@
                 <h1 class="section-headers">Contact us</h1>
                 <div class="contact-section">
                     <div class="row">
-                        <div class="col-md-4 col-sm-12 filled-style">
+                        <div class="col-md-2">
+                        </div>
+                        <div class="col-md-4 filled-style">
                             <hr/>
-                            <p>rtyuiolkjhgvbhnjmk</p>
-                            <p>sdfvghjgjgjgjhgjhjh</p>
+                            <p>Got a question? I’m here to help you! Send me a message and I will answer you as soon as possible!</p>
+                            <p>Maybe you want to spare with me some of yours delicious food? I’m ready to help you get rid of it!</p>
                             <br/><br/><br/>
                             <p>
                                 Poland, Wroclaw
@@ -227,7 +249,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-8 col-sm-12">
+                        <div class="col-md-4 form-styling">
                             <h1>Let's Start!</h1>
                             <br/>
                             <form action="/test.html" method="POST">
@@ -248,20 +270,18 @@
                             <br/>
                             <button class="rectangular">Send</button>
                         </div>
+                        <div class="col-md-2">
+                        </div>
                     </div>
                 </div>
             </section>
-
-
-
-
     </div>
-    </div>
+    
     <footer class="row">
         <div class="col">
          Copyright &copy; 2019 Iryna Masniuk   
         </div>
-        
+    </div>    
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
