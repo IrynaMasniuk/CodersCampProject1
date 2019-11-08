@@ -252,15 +252,30 @@ input {
     background: #FAFAFF;
     border-radius: 15px;
     padding: 5px;
+    margin: 10px 0;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 25px;
-    /*display: flex; */
+    align-items: center;
+    color: #A0A0A0;
+    width: 100%; 
+    color: black;
+}
+
+textarea {
+    background: #FAFAFF;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
     align-items: center;
     color: #A0A0A0;
     width: 100%;
-    
+    color: black;  
 }
 
 .bottom-button-style {
