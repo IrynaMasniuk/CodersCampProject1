@@ -8,6 +8,10 @@ main.css
     font-family: 'Assistant', sans-serif;
     }*/
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .container {
     background-color:#ebebe0;
     line-height: 1;
@@ -28,10 +32,11 @@ ul.navigation-list {
 
 .menu-item {
     text-decoration:none;
-    color: #66b3ff;
+    color: black;
     font-weight: bold;
     font-size: 20px;
     padding: 30px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .presentation-wrapper {
@@ -46,7 +51,7 @@ ul.navigation-list {
     position: absolute;
     width: 100%;
     height: 300px;
-    bottom: 20px;
+    bottom:110px;
     margin:-15px;
     
 }
@@ -56,17 +61,16 @@ ul.navigation-list {
     font-weight: 400;
     color:  #FFFFFF;
     padding:15px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-/*.megaheader {
-    text-transform: uppercase;
+.megaheader {
     font-weight: 400;
-    margin: 0 0 10px 0;
+}
+   /* margin: 0 0 10px 0;
     font-size: 60px;
     letter-spacing: 20px;
-    line-height: 80px;
-    color: #e6ac00;
-    font-weight: bolder;*/
+    line-height: 80px;*/
 
 
 .subheader1{
@@ -93,6 +97,7 @@ ul.navigation-list {
     font-weight: bold;
     letter-spacing: 0.02em;
     padding: 40px 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .rectangular{
@@ -295,7 +300,6 @@ form {
 
 .icons-bottom {
     display: flex;
-    
 }
 
 
@@ -312,10 +316,6 @@ footer {
     color: #A0A0A0;
     text-align: center;
     padding: 40px 0 20px 0;
-}
-
-i :hover {
-    background-color: #A0A0A0;
 }
 
 .photo-effects {
