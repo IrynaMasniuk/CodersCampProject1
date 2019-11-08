@@ -17,9 +17,8 @@
 
 <body>
     <div class="container">
-        <div class="content1">
-            <div class="navigation">
-                <nav>
+        <div class="row">
+                <nav class="col-12">
                     <ul class="navigation-list">
                         <li>
                             <a class="menu-item" href="#about">About Me</a>
@@ -35,48 +34,46 @@
                         </li>
                     </ul>
                 </nav>
-            </div>
+        </div>
 
-            <div class="mainphoto-section">
+        <div class="row">
+            <div class="col-12 presentation-wrapper">
+                
                 <div class="presentation-section">
 
-                    <h1 class="megaheader headers">Welcome !</h1>
+                    <h1 class="megaheader headers">Welcome!</h1>
 
-                    <h2 class="subheader1 headers">My name is Iryna Masniuk</h2>
+                    <h1 class="subheader1 headers">My name is Iryna Masniuk</h1>
 
-                    <h3 class="subheader2 headers">Junior Front End Developer</h3>
+                    <h2 class="subheader2 headers">Junior Front End Developer</h2>
 
                     <div class="icons-container">
                         <div>
-                            <a href="linkedin.com/iryna-masniuk-98765423" class="icon" target=_blank>
+                            <a href="https://linkedin.com/iryna-masniuk-98765423" class="icon" target=_blank>
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
                         </div>
                         <div>
-                            <a href="github.com/iryna.masniuk" class="icon" target=_blank>
+                            <a href="https://github.com/iryna.masniuk" class="icon" target=_blank>
                                 <i class="fab fa-github-square"></i>
                             </a>
                         </div>
                         <div>
-                            <a href="facebook.com/iryna.masniuk" class="icon" target=_blank>
+                            <a href="https://facebook.com/iryna.masniuk" class="icon" target=_blank>
                                 <i class="fab fa-facebook" aria-hidden="true"></i>
                             </a>
                         </div>
                         <div>
-                            <a href="rodzynia@gmail.com" class="icon" target=_blank>
+                            <a href="mailto:rodzynia@gmail.com" class="icon" target=_blank>
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+            </div>
 
-            <div class="button-block">
-                <div class="row" >
-                    <div class="col-12">
-                        <p class="slogan">I'm happy to help you with any problems!</p>
-                    </div>
-                </div>
+            <div class="button-section">
                 <div class="row">
                     <div class="col-md-1">
                     </div>
@@ -88,44 +85,45 @@
                     </div>
                 </div>
             </div>
+
             <section id="about">
                 <h1 class="section-headers">About me</h1>
                 <div class="about-styling">
                 <div class="row">
 
-                    <div class="col-2">
+                    <div class="col-md-2">
                         <img src="img/profile.jpg" class="profile-pic" alt="Iryna Masniuk">
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-4 span-items-styling">
                         <p>
-                            <span class="subheader">Full Name: </span>
-                            <span class="fancy-content">Iryna Masniuk</span>
+                            <span class="about-question">Full Name: </span>
+                            <span class="about-answer">Iryna Masniuk</span>
                         </p>
                         <p>
-                            <span class="subheader">Age: </span>
-                            <span class="fancy-content">28 years</span>
+                            <span class="about-question">Age: </span>
+                            <span class="about-answer">28 years</span>
                         </p>
                         <p>
-                            <span class="subheader">Profile: </span>
-                            <span class="fancy-content">Fullstack</span>
+                            <span class="about-question">Profile: </span>
+                            <span class="about-answer">Fullstack</span>
                         </p>
                         <p>
-                            <span class="subheader">Telephone: </span>
-                            <span class="fancy-content">+48 782 765 291</span>
+                            <span class="about-question">Telephone: </span>
+                            <span class="about-answer">+48 782 765 291</span>
                         </p>
                         <p>
-                            <span class="subheader">E-mail: </span>
-                            <span class="fancy-content">rodzynia@gmail.com</span>
+                            <span class="about-question">E-mail: </span>
+                            <span class="about-answer">rodzynia@gmail.com</span>
                         </p>
                     </div>
-                    <div class="col-7">
+                    <div class="col-md-6">
                         <div class="vertical-line"></div>
-                        <div>Hi! My name is Iryna Masniuk and I'm starting my journey with frontend.</div>
+                        <div class="about-section-text">Hi! My name is Iryna Masniuk and I'm starting my journey with frontend. I am a computer science graduate and all-around tech head. I have recently finished web developer internship and that experience has shaped my code evaluation and website development knowledge, and I know I have the HTML, CSS, and JS skills to help any web project to succeed.</div>
                     </div>
                 </div>
             </div>
             </section>
-            <br/>
+
             <br/>
             <section id="skills">
                 <h1 class="section-headers">My skills</h1>
@@ -150,64 +148,69 @@
                 </div>
             </div>
             </section>
-            <br/><br/>
+
+            <br/>
             <section id="portfolio">
                 <h1 class="section-headers">My Projects</h1>
-                <div class="portfolio-section">
+                
                 <div class="row">
-                    <div class="col-md-3 col-6 project1 project-align ">
-                        <a href="" target=_blank>
+                    <div class="col-md-3 col-6 project-align ">
+                        <img src="img/project1.jpg" style="min-width: 250px;" alt="" class="project-wrapper photo1">
+                            <div class="project-view-styling">
                             <h2>Design</h2>
-                            <p class="text-overlink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua.</p>
-                            <button class="rectangular">View</button>
-                        <a/>
+                            <button class="rectangular view-button-style">View</button>
+                         </div>   
+                            
+                        
                     </div>
                     <div class="col-md-3 col-6 project-align ">
                         <a href="" target=_blank>
-                            <img src="img/project2.jpg" alt="">
+                            <img src="img/project2.jpg" style="min-width: 250px;" alt="" class="photo2"/>
                         </a>
                     </div>
                     <div class="col-md-3 col-6 project-align">
                         <a href="" target=_blank>
-                            <img src="img/project3.jpg" alt="">
+                            <img src="img/project3.jpg" style="min-width: 250px;" alt="" class="photo3"/>
                         </a>
                     </div>
                     <div class="col-md-3 col-6 project-align">
                         <a href="" target=_blank>
-                            <img src="img/project4.jpg" alt="">
+                            <img src="img/project4.jpg" style="min-width: 250px;" alt="" class="photo4"/>
                         <a/>
                     </div>
                 </div>
                 <br/><br/>
                 <div class="row">
-                    <div class="col-md-3 col-6 project-align" style="min-width: 250px;">
+                    <div class="col-md-3 col-sm-6 project-align">
                         <a href="" target=_blank>
-                            <img src="img/project5.jpg" alt="">
+                            <img src="img/project5.jpg" alt="" class="photo5"/>
                         <a/>
                     </div> 
-                    <div class="col-md-3 col-6 project-align" style="min-width: 250px;">
+                    <div class="col-md-3 col-sm-6 project-align">
                         <a href="" target=_blank>
-                            <img src="img/project6.jpg" style="min-width: 250px;" alt="">
+                            <img src="img/project6.jpg" alt="" class="photo6"/>
                         <a/>
                     </div>
-                    <div class="col-md-3 col-6 project-align" style="min-width: 250px;">
+                    <div class="col-md-3 col-sm-6 project-align">
                         <a href="" target=_blank>
-                            <img src="img/project7.jpg" alt="">
+                            <img src="img/project7.jpg" alt="" class="photo7"/>
                         <a/>
                     </div>
-                    <div class="col-md-3 col-6 project8 project-align ">
-                        <a href="" target=_blank>
+                    <div class="col-md-3 col-sm-6 project-align project-wrapper">
+                        <img src="img/project8.jpg" alt="" style="min-width: 250px;" class="photo8"/>
+                        <div class="project-view-styling">
                             <h2>Design project</h2>
                             <p class="text-overlink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                             et dolore magna aliqua. 
                             </p>
-                            <button class="rectangular">View</button>
-                        <a/>
+                            <button class="rectangular view-button-style">View</button>
+                        </div>
                     </div>
                 
                 </div>
-            </div>
+            
             </section>
 
             <section id="contact">
@@ -218,7 +221,7 @@
                             <hr/>
                             <p>Got a question? I’m here to help you! Send me a message and I will answer you as soon as possible!</p>
                             <p>Maybe you want to spare with me some of yours delicious food? I’m ready to help you get rid of it!</p>
-                            <br/><br/><br/>
+                            
                             <p>
                                 Poland, Wroclaw
                                 <br> Adreess
@@ -242,7 +245,7 @@
                                 </div>
                                 <div>
                                     <a href="rodzynia@gmail.com" class="icon" target=_blank>
-                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        <i class="fa fa-envelope-o icon8" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
@@ -274,14 +277,13 @@
                     </div>
                 </div>
             </section>
-    </div>
-    <br/>
-    <footer class="row">
-        <div class="col">
-         Copyright &copy; 2019 Iryna Masniuk   
-        </div>
-    </div>    
-    </footer>
+    
+            <footer class="row">
+                 <div class="col">
+                    Copyright &copy; 2019 Iryna Masniuk   
+                </div>
+            </footer>
+    </div> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
