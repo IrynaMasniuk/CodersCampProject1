@@ -17,9 +17,7 @@ ul.navigation-list {
     display:flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-   
 }  
-
 
 li{
     text-decoration: none;
@@ -29,19 +27,11 @@ li{
 
 .menu-item {
     text-decoration:none;
-    /*margin: 30px;*/
     color:#001a00;
     font-weight: bold;
     font-size: 20px;
     padding: 30px 20px;
 }
-    
- /*   
-.mainphoto-section {
-    min-height: 500px;
-    height: 100vh;
-    background-size: cover;
-     */
 
 .presentation-wrapper {
     position: relative;
@@ -89,21 +79,20 @@ li{
     margin: 20px;
 }
 
-/*.slogan{
-    color: #31522a;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    letter-spacing: 0.02em;
-} */
-
 .button-section {
-    text-align: center;
-
+    padding:15px;
 }
 
 .button-justify{
     text-align: center;
+}
+
+.section-headers {
+    text-align:center;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    padding: 40px 0;
 }
 
 .rectangular{
@@ -173,14 +162,7 @@ li{
     line-height: 1.7;
 }
 
-.section-headers {
-    text-align:center;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 0.02em;
-    padding: 30px 0;
-}
-        
+       
 .icons-container {
     display:flex;
     justify-content: center;
@@ -228,8 +210,11 @@ li{
     position: absolute;
     padding: 10px;
     bottom: 10px;
-    right:0;
-    left:0;
+    color: #FFFFFF;
+    line-height: 1.3;
+    font-size: bold;
+    /*right:5px;
+    left:5px;*/
 }
 
 /*.project1{
@@ -243,10 +228,7 @@ li{
     background-size: auto;
     text-decoration: none; 
 } 
-
-.contact-section {
-    padding: 20px;
-}*/
+*/
 
 .contact-section {
     background: #FAFAFF;
