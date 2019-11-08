@@ -112,8 +112,8 @@ li{
     right: 0%;
     top: 0%;
     bottom: 0%;
-
-    background: linear-gradient(270deg, #66b3ff 14%, #00cc99 68.5%);
+    border: 1px solid #66b3ff;
+    background: linear-gradient(325deg, #66b3ff 14%, #00cc99 78%);
     border-radius: 15px;
     /*font-weight: bold;*/
     font-size: 18px;
@@ -121,7 +121,14 @@ li{
     font-style: normal;
     color: #FFFFFF;
     text-align: center;
-    padding: 10px;
+    padding: 10px 12px 12px 10px;
+    margin:10px;
+}
+
+.rectangular:hover {
+    border: 1px solid #00cc99;
+    background: #FFFFFF;
+    color: #00cc99;
 }
 
 .profile-pic {
@@ -223,7 +230,6 @@ li{
     bottom: 10px;
     right:0;
     left:0;
-    box-sizing: border-box;
 }
 
 /*.project1{
@@ -318,74 +324,12 @@ i :hover {
     background-color: #A0A0A0;
 }
 
-.photo1 {
+.photo-effects {
     width: 250px;
     transition: transform 0.2s ease-in-out;
 }
 
-.photo1:hover {
+.photo-effects:hover {
 transform: scale(0.9);
 }
 
-.photo2 {
-    width: 250px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.photo2:hover {
-transform: scale(0.9);
-}
-
-.photo3 {
-    width: 250px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.photo3:hover {
-transform: scale(0.9);
-}
-
-.photo4 {
-    width: 250px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.photo4:hover {
-transform: scale(0.9);
-}
-
-.photo5 {
-    width: 250px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.photo5:hover {
-transform: scale(0.9);
-}
-
-.photo6 {
-    width: 250px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.photo6:hover {
-transform: scale(0.9);
-}
-
-.photo7 {
-    width: 250px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.photo7:hover {
-transform: scale(0.9);
-}
-
-.photo8 {
-    width: 250px;
-    transition: transform 0.2s ease-in-out;
-}
-
-.photo8:hover {
-transform: scale(0.9);
-}
